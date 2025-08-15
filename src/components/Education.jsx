@@ -7,21 +7,21 @@ const educationData = [
     institute: 'Maharaj Vijayaram Gajapathi Raj College of Engineering',
     course: 'B.Tech in CSE',
     year: '2022 - 2026',
-    score: 'CGPA: 8.53',
+    score: 'CGPA: 8.31',
   },
   {
     id: 2,
     institute: 'Sri Chaitanya Junior College',
     course: 'Intermediate - MPC',
     year: '2020 - 2022',
-    score: '74.8%',
+    score: '88.6%',
   },
   {
     id: 1,
     institute: 'Sri Chaitanya Techno School',
     course: 'SSC',
     year: '2019 - 2020',
-    score: '99.8%',
+    score: '100%',
   },
 ];
 
