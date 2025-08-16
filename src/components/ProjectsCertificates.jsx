@@ -8,7 +8,7 @@ const projects = [
     id: 'perfectresume',
     name: 'Perfect Resume – Customizable Resume Builder',
     shortDesc: 'React-based resume builder with dynamic templates and EmailJS integration.',
-    imageUrl: '/assets/perfect_resume.png',
+    imageUrl: '/assets/perfect_resume_.png',
     liveDemo: 'https://perfect-resume-sable.vercel.app',
     github: 'https://github.com/HARSHA-8855/Perfect-Resume',
     technologies: ['React', 'Tailwind CSS', 'Framer Motion', 'EmailJS'],
@@ -25,7 +25,7 @@ const projects = [
     id: 'smartocr',
     name: 'Smart OCR – Automated Text Extraction System',
     shortDesc: 'OCR pipeline for scanned PDFs and images with image preprocessing and Tesseract OCR.',
-    imageUrl: 'assets/smart_ocr.jpeg',
+    imageUrl: 'assets/smart_ocr_.png',
     liveDemo: null,
     github: 'https://github.com/Roshitha-Kommana/smart_ocr',
     technologies: ['Python', 'OpenCV', 'PyMuPDF', 'Tesseract'],
@@ -41,7 +41,7 @@ const projects = [
     id: 'helmetdetection',
     name: 'Helmet Detection Using YOLO – Real-Time Object Detection',
     shortDesc: 'Real-time helmet detection system using YOLO to ensure safety compliance in industrial and traffic environments.',
-    imageUrl: '/assets/bike.png',
+    imageUrl: '/assets/Untitled.png',
     liveDemo: null,
     github: 'https://github.com/Roshitha-Kommana/HelmetDetectionYOLO',
     technologies: ['YOLO', 'Python', 'OpenCV', 'Deep Learning', 'Darknet', 'TensorFlow', 'PyTorch'],
@@ -271,7 +271,7 @@ const ProjectsCertificates = () => {
                   <img src={proj.imageUrl} alt={proj.name} className="w-full h-full object-cover rounded-md" />
                 </div>
                 <h3 className="text-lg font-bold text-[#4B0082] text-center">{proj.name}</h3>
-                <p className="text-sm text-black text-center mt-2">{proj.shortDesc}</p>
+                <p className="text-sm text-white text-center mt-2">{proj.shortDesc}</p>
                 <div className="mt-4 flex justify-between items-center text-sm text-black">
                   {proj.liveDemo ? (
                     <a href={proj.liveDemo} target="_blank" rel="noopener noreferrer" className="hover:underline">Live Demo</a>
